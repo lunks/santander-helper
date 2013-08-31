@@ -1,0 +1,27 @@
+<div class="row">
+  <div id="title">
+    <h1>Santander Helper</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div id="subtitle">
+    <p class="lead">
+      Copie e cole o código de barras da sua conta
+      <br>
+      e pague no Santander Internet Banking.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div id="main-form">
+    <%= form_tag "/to_santander", role: "form" do %>
+      <div class="form-group">
+        <%= label_tag :barcode, "Código de barras" %>
+        <%= text_field_tag :barcode, nil, class: "form-control" %>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Pagar no Santander Internet Banking</button>
+    <% end %>
+  </div>
+</div>

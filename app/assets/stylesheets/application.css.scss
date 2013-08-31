@@ -13,3 +13,14 @@
  */
 
 @import "twitter/bootstrap";
+
+h1 {
+  text-align: center;
+}
+.lead {
+  text-align: center;
+}
+#main-form, #title, #subtitle {
+  @extend .col-md-6;
+  @extend .col-md-offset-3;
+}
