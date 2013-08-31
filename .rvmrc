@@ -1,0 +1,3 @@
+rvm 2.0.0@santander --create
+
+export APP=santander-helper
