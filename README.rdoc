@@ -6,4 +6,4 @@ can't copy paste your barcode at all.
 This small app which allows you to copy and paste a full barcode to be paid in 
 Santander Internet Banking.
 
-((https://santander-helper.herokuapp.com/))
+https://santander-helper.herokuapp.com/
